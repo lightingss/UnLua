@@ -19,7 +19,8 @@ public class TPSProjectServerTarget : TargetRules
     public TPSProjectServerTarget(TargetInfo Target) : base(Target)
     {
         Type = TargetType.Server;
-        DefaultBuildSettings = BuildSettingsVersion.V2;
+        DefaultBuildSettings = BuildSettingsVersion.V5;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
         ExtraModuleNames.Add("TPSProject");
     }
 }

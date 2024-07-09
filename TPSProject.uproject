@@ -28,7 +28,7 @@
 		},
 		{
 			"Name": "UnLuaTestSuite",
-			"Enabled": true
+			"Enabled": false
 		}
 	]
 }
